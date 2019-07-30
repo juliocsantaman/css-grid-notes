@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    height: 700px;
+
+    /* Alinear horizontalmente */
+    justify-content: space-evenly;
+
+    /* Alinear verticalmente */ 
+    align-content: space-evenly;
+}
